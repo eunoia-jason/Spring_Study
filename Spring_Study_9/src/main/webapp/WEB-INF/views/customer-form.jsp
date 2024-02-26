@@ -15,8 +15,8 @@
 <body>
 <div class="container">
     <div class="col-md-offset-2 col-md-7">
-        <h2 class="text-center">Spring MVC 5 + Hibernate 5 + JSP + MySQL
-            Example</h2>
+        <h3 class="text-center">Spring MVC 5 + Spring Data JPA 2 + JSP + MySQL
+            Example - Customer Management</h3>
         <div class="panel panel-info">
             <div class="panel-heading">
                 <div class="panel-title">Add Customer</div>
@@ -53,7 +53,7 @@
                     <div class="form-group">
                         <!-- Button -->
                         <div class="col-md-offset-3 col-md-9">
-                            <form:button class="btn btn-primary">Submit</form:button>
+                            <form:button cssClass="btn btn-primary">Submit</form:button>
                         </div>
                     </div>
 
