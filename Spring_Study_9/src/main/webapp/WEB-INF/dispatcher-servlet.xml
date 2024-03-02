@@ -10,6 +10,7 @@
     <!-- 트랜잭션 관리 설정 -->
     <tx:annotation-driven />
     <context:component-scan base-package="org.example"/>
+    <!-- JPA 사용 설정 -->
     <jpa:repositories base-package="org.example.repository" />
 
     <mvc:resources mapping="/resources/**" location="/resources/"/>
